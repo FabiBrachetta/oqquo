@@ -70,6 +70,11 @@ body {
 	z-index: -1;
 }
 
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -97,7 +102,7 @@ body {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 130px;
+        padding-top: 150px;
     }
 
     body {
